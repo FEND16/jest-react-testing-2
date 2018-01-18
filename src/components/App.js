@@ -30,10 +30,7 @@ class App extends Component {
     return (
       <div>
         {this.state.user && (
-          <button
-            onClick={this.logout}
-            className="fixed pin-t p-l bg-purple-dark text-white text-center p-4 rounded-br user"
-          >
+          <button onClick={this.logout} className="fixed pin-t p-l bg-purple-dark text-white text-center p-4 rounded-br user">
             {this.state.user}
           </button>
         )}
